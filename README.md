@@ -46,14 +46,17 @@ Also, put the answers in the "Query Responses" section of this README.
 1.
   * How many rows were returned: 7
   * First name of the first user: Mitsue
+  SELECT * FROM users WHERE city='Chicago'
 
 2.
   * How many rows were returned: 2
   * What states do they live in: MD & TX
+  SELECT state FROM users WHERE first_name='Glory';
 
 3.
   * How many rows were returned: 6
   * What's the last email on the list: nichelle_meteer@meteer.com
+  SELECT * FROM users WHERE phone1 LIKE '773%';
 
 ## Summary
 
